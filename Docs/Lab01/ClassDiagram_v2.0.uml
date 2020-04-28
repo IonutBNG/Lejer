@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>inventory.Main</OriginalElement>
+  <nodes>
+    <node x="704.0" y="823.0">inventory.repository.InventoryRepository</node>
+    <node x="0.0" y="1394.0">inventory.service.InventoryService</node>
+    <node x="479.0" y="1394.0">inventory.model.Product</node>
+    <node x="0.0" y="1255.5">inventory.Main</node>
+    <node x="167.0" y="1233.0">javafx.application.Application.Parameters</node>
+    <node x="5.5" y="823.0">javafx.application.Application</node>
+    <node x="1186.25" y="823.0">inventory.model.Part</node>
+    <node x="391.0" y="823.0">inventory.controller.AddPartController</node>
+    <node x="1011.0" y="1122.0">inventory.model.OutsourcedPart</node>
+    <node x="770.0" y="0.0">inventory.controller.AddProductController</node>
+    <node x="1159.0" y="0.0">inventory.controller.ModifyPartController</node>
+    <node x="388.0" y="0.0">inventory.controller.MainScreenController</node>
+    <node x="980.0" y="1394.0">inventory.repository.InventoryCRUD</node>
+    <node x="0.0" y="0.0">inventory.controller.ModifyProductController</node>
+    <node x="1363.0" y="1122.0">inventory.model.InhousePart</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+      <point x="0.0" y="-58.0" />
+      <point x="256.5" y="1208.0" />
+      <point x="244.75" y="1208.0" />
+      <point x="79.75" y="180.0" />
+    </edge>
+    <edge source="inventory.Main" target="javafx.application.Application">
+      <point x="0.0" y="-35.5" />
+      <point x="73.5" y="1208.0" />
+      <point x="85.25" y="1208.0" />
+      <point x="-79.75" y="180.0" />
+    </edge>
+    <edge source="inventory.model.OutsourcedPart" target="inventory.model.Part">
+      <point x="0.0" y="-58.5" />
+      <point x="1177.0" y="1097.0" />
+      <point x="1265.0" y="1097.0" />
+      <point x="-78.75" y="124.5" />
+    </edge>
+    <edge source="inventory.model.InhousePart" target="inventory.model.Part">
+      <point x="0.0" y="-58.5" />
+      <point x="1510.5" y="1097.0" />
+      <point x="1422.5" y="1097.0" />
+      <point x="78.75" y="124.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6" x="467.99999999999994" y="200.99999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
