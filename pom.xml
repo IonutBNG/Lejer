@@ -142,7 +142,7 @@
         <version>2.22.1</version>
         <configuration>
           <useSystemClassLoader>false</useSystemClassLoader>
-          <!--                <failIfNoTests>false</failIfNoTests>-->
+                      <failIfNoTests>false</failIfNoTests>
         </configuration>
       </plugin>
       <plugin>
