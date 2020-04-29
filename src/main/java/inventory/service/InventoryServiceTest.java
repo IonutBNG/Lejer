@@ -21,7 +21,7 @@ class InventoryServiceTest {
 
     @BeforeEach
     void init() {
-        this.inventoryRepository = new InventoryRepository("data/testItems.txt");
+        this.inventoryRepository = new InventoryRepository("data/mockTests");
         this.inventoryService = new InventoryService(this.inventoryRepository);
         this.itemsNo = this.inventoryRepository.getInventoryCRUD().getAllParts().size();
     }

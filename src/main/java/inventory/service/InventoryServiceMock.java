@@ -8,7 +8,7 @@ import inventory.service.InventoryService;
 import inventory.service.validators.ValidatorException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
-import org.junit.Before;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

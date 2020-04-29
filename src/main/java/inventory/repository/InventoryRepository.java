@@ -162,6 +162,7 @@ public class InventoryRepository {
 				bw.write(line);
 				bw.newLine();
 			}
+			//bw.newLine();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

@@ -14,7 +14,7 @@ class WBATests {
 
     @BeforeEach
     void initialize(){
-        this.inventoryRepository = new InventoryRepository("data/WBATestingData.txt");
+        this.inventoryRepository = new InventoryRepository("data/mockTests");
     }
 
     @Test
