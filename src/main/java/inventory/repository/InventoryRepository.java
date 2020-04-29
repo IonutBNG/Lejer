@@ -6,6 +6,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.io.*;
+import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
 public class InventoryRepository {
@@ -117,19 +118,26 @@ public class InventoryRepository {
         int inStock = Integer.parseInt(st.nextToken());
         int minStock = Integer.parseInt(st.nextToken());
         int maxStock = Integer.parseInt(st.nextToken());
-        String partIDs=st.nextToken();
+        try {
+			String partIDs = st.nextToken();
 
-        StringTokenizer ids= new StringTokenizer(partIDs,":");
-        ObservableList<Part> list= FXCollections.observableArrayList();
-        while (ids.hasMoreTokens()) {
-            String idP = ids.nextToken();
-            Part part = inventoryCRUD.lookupPart(idP);
-            if (part != null)
-                list.add(part);
-        }
-        product = new Product(id, name, price, inStock, minStock, maxStock, list);
-        product.setAssociatedParts(list);
-		return product;
+			StringTokenizer ids = new StringTokenizer(partIDs, ":");
+			ObservableList<Part> list = FXCollections.observableArrayList();
+			while (ids.hasMoreTokens()) {
+				String idP = ids.nextToken();
+				Part part = inventoryCRUD.lookupPart(idP);
+				if (part != null)
+					list.add(part);
+			}
+			product = new Product(id, name, price, inStock, minStock, maxStock, list);
+			product.setAssociatedParts(list);
+
+			return product;
+		}
+        catch (NoSuchElementException e){
+        	e.printStackTrace();
+			return null;
+		}
 	}
 
 	public void writeAll() throws IOException{
@@ -150,17 +158,19 @@ public class InventoryRepository {
 
 			if (products != null)
 			for (Product pr:products) {
-				String line=pr.toString()+",";
-				ObservableList<Part> list= pr.getAssociatedParts();
-				int index=0;
-				while(index<list.size()-1){
-					line=line+list.get(index).getPartId()+":";
-					index++;
+				if(pr!=null) {
+					String line = pr.toString() + ",";
+					ObservableList<Part> list = pr.getAssociatedParts();
+					int index = 0;
+					while (index < list.size() - 1) {
+						line = line + list.get(index).getPartId() + ":";
+						index++;
+					}
+					if (index == list.size() - 1)
+						line = line + list.get(index).getPartId();
+					bw.write(line);
+					bw.newLine();
 				}
-				if (index==list.size()-1)
-					line=line+list.get(index).getPartId();
-				bw.write(line);
-				bw.newLine();
 			}
 			//bw.newLine();
 		} catch (IOException e) {

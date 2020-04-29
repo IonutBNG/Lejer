@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6483ca37-4b52-4f4c-b7a0-fb7cbdf7b902" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/items.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/mockTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inventory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Inventory.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/WBATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/WBATests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/items.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/mockTests" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/mockTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepositoryMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryRepositoryMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/WBATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/WBATests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryRepository.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,12 +29,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepThree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+            <state relative-caret-position="276">
+              <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#5844#5845#0" expanded="true" />
+                <element signature="e#5887#5888#0" expanded="true" />
+                <element signature="e#5920#5921#0" expanded="true" />
+                <element signature="e#5966#5967#0" expanded="true" />
+                <element signature="e#6011#6012#0" expanded="true" />
+                <element signature="e#6052#6053#0" expanded="true" />
+                <element signature="e#6103#6104#0" expanded="true" />
+                <element signature="e#6144#6145#0" expanded="true" />
+                <element signature="e#6186#6187#0" expanded="true" />
+                <element signature="e#6232#6233#0" expanded="true" />
+                <element signature="e#6280#6281#0" expanded="true" />
+                <element signature="e#6329#6330#0" expanded="true" />
+                <element signature="e#7060#7061#0" expanded="true" />
+                <element signature="e#7087#7088#0" expanded="true" />
+                <element signature="e#7148#7149#0" expanded="true" />
+                <element signature="e#7189#7190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,17 +58,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="123">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/WBATests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            <state relative-caret-position="215">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,10 +107,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/WBATests.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data/mockTests">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="74" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="74" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -90,47 +134,9 @@
         <option value="$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data/items.txt" />
         <option value="$PROJECT_DIR$/src/main/resources/data/mockTests" />
+        <option value="$PROJECT_DIR$/src/test/resources/data/mockTests" />
         <option value="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/Inventory.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_1.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_23_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_swing_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_ea_4.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/inventory/WBATests.java" />
       </list>
     </option>
   </component>
@@ -186,7 +192,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
@@ -196,6 +202,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
@@ -212,6 +227,42 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,12 +272,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ioan\Desktop\VVSS\inv\Lejer\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ioan\Desktop\VVSS\inv\Lejer\src\test\java\inventory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,8 +309,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationStepThree.test02_add_part_invalid">
-    <configuration name="All in Inventory (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in Inventory (3)">
+    <configuration name="All in Inventory (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -249,7 +318,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Inventory (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Inventory (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -257,7 +326,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Inventory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Inventory (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Inventory" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -299,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Inventory (3)" />
+        <item itemvalue="JUnit.All in Inventory (2)" />
         <item itemvalue="JUnit.IntegrationStepThree.test02_add_part_invalid" />
         <item itemvalue="JUnit.IntegrationStepThree.test01_add_part_valid" />
-        <item itemvalue="JUnit.All in Inventory" />
-        <item itemvalue="JUnit.All in Inventory (5)" />
-        <item itemvalue="JUnit.All in Inventory (4)" />
+        <item itemvalue="JUnit.All in Inventory (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -317,75 +386,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588156343029</updated>
-      <workItem from="1588156349273" duration="792000" />
+      <workItem from="1588156349273" duration="2673000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_Inventory_(1) - 2020.04.29 at 13h 41m 18s.xml">
+    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 14h 11m 20s.xml">
+      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Inventory_(1) - 2020.04.29 at 14h 11m 34s.xml">
       <configuration name="All in Inventory (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Inventory_(2) - 2020.04.29 at 13h 42m 31s.xml">
+    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 14h 11m 53s.xml">
+      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 14h 12m 06s.xml">
+      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 14h 12m 35s.xml">
+      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 14h 15m 25s.xml">
+      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 14h 15m 41s.xml">
+      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 14h 17m 35s.xml">
+      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 14h 18m 35s.xml">
+      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_Inventory_(2) - 2020.04.29 at 14h 18m 52s.xml">
       <configuration name="All in Inventory (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Inventory_(3) - 2020.04.29 at 13h 42m 52s.xml">
-      <configuration name="All in Inventory (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Inventory_(4) - 2020.04.29 at 13h 43m 35s.xml">
-      <configuration name="All in Inventory (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Inventory_(5) - 2020.04.29 at 13h 43m 53s.xml">
-      <configuration name="All in Inventory (5)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_Inventory - 2020.04.29 at 13h 44m 16s.xml">
-      <configuration name="All in Inventory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 13h 44m 26s.xml">
-      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationStepThree_test01_add_part_valid - 2020.04.29 at 13h 44m 59s.xml">
-      <configuration name="IntegrationStepThree.test01_add_part_valid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 13h 45m 07s.xml">
-      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IntegrationStepThree_test02_add_part_invalid - 2020.04.29 at 13h 45m 28s.xml">
-      <configuration name="IntegrationStepThree.test02_add_part_invalid" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="792000" />
+    <option name="totallyTimeSpent" value="2673000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32850242" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32850242" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32850242" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,12 +464,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepThree.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java</url>
           <line>35</line>
           <properties class="inventory.integration.IntegrationStepThree" method="test01_add_part_valid">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -413,41 +482,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
           <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepositoryMock.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/InventoryRepositoryMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryServiceMock.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/InventoryServiceMock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data/items.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -458,10 +513,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/WBATests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/items.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/items.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="16" column="74" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="74" />
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,36 +540,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/integration/IntegrationStepThree.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/mockTests">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="172" column="17" selection-start-line="172" selection-start-column="17" selection-end-line="172" selection-end-column="17" />
+          <folding>
+            <element signature="e#5844#5845#0" expanded="true" />
+            <element signature="e#5887#5888#0" expanded="true" />
+            <element signature="e#5920#5921#0" expanded="true" />
+            <element signature="e#5966#5967#0" expanded="true" />
+            <element signature="e#6011#6012#0" expanded="true" />
+            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#6103#6104#0" expanded="true" />
+            <element signature="e#6144#6145#0" expanded="true" />
+            <element signature="e#6186#6187#0" expanded="true" />
+            <element signature="e#6232#6233#0" expanded="true" />
+            <element signature="e#6280#6281#0" expanded="true" />
+            <element signature="e#6329#6330#0" expanded="true" />
+            <element signature="e#7060#7061#0" expanded="true" />
+            <element signature="e#7087#7088#0" expanded="true" />
+            <element signature="e#7148#7149#0" expanded="true" />
+            <element signature="e#7189#7190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/WBATests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        <state relative-caret-position="215">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Inventory</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>11.0.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
