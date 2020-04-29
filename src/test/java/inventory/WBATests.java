@@ -1,6 +1,7 @@
-package inventory.repository;
+package inventory;
 
 import inventory.model.Product;
+import inventory.repository.InventoryRepository;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

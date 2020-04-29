@@ -1,7 +1,10 @@
-package inventory.repository;
+package inventory;
 
 import inventory.model.InhousePart;
 import inventory.model.Part;
+import inventory.repository.InventoryCRUD;
+import inventory.repository.InventoryRepository;
+import inventory.repository.RepositoryException;
 import inventory.service.validators.ValidatorException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
