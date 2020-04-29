@@ -1,4 +1,4 @@
-package inventory;
+package inventory.bbt;
 
 import inventory.model.InhousePart;
 import inventory.repository.InventoryRepository;

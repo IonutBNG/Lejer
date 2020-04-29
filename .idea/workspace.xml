@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6483ca37-4b52-4f4c-b7a0-fb7cbdf7b902" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/IntegrationStepTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/InventoryRepositoryMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryRepositoryMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/WBATests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/WBATests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/wbt/WBATests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/inventory/bbt/InventoryServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,17 +57,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="-183">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/WBATests.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/wbt/WBATests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+            <state relative-caret-position="119">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -106,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/inventory/bbt/InventoryServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -160,6 +159,8 @@
         <option value="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceMock.java" />
         <option value="$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/inventory/WBATests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inventory/wba/WBATests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/inventory/wbt/WBATests.java" />
       </list>
     </option>
   </component>
@@ -234,6 +235,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inventory" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lejer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Inventory" type="b2602c69:ProjectViewProjectNode" />
@@ -409,7 +420,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588156343029</updated>
-      <workItem from="1588156349273" duration="3064000" />
+      <workItem from="1588156349273" duration="3844000" />
     </task>
     <servers />
   </component>
@@ -446,7 +457,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3064000" />
+    <option name="totallyTimeSpent" value="3844000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -561,13 +572,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -599,17 +603,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/InventoryServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/IntegrationStepThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+        <state relative-caret-position="-183">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/WBATests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/wbt/WBATests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="52" lean-forward="true" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        <state relative-caret-position="119">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/inventory/bbt/InventoryServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
         </state>
       </provider>
     </entry>
